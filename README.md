@@ -4,7 +4,7 @@ Today, we'll explore Opensea NFT APIs and show you how to retrieve Opensea tradi
 
 Note: In the queries, you'll see `seaport_v1.4`, which represents not just version 1.4 of Seaport but encompasses all Seaport versions.
 
-
+## Table of Contents
   - [Newly Created NFTs on Ethereum](#newly-created-nfts-onethereum)
   - [OpenSea Shared Storefront NFTs](#opensea-shared-storefront-nfts)
   - [Latest NFT Trades on OpenSea](#latest-nft-trades-onopensea)
