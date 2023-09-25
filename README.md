@@ -4,22 +4,36 @@ Today, we'll explore Opensea NFT APIs and show you how to retrieve Opensea tradi
 
 Note: In the queries, you'll see `seaport_v1.4`, which represents not just version 1.4 of Seaport but encompasses all Seaport versions.
 
+[![Telegram Badge](https://badgen.net/static/Join/Bloxy_info?icon=telegram)](https://t.me/Bloxy_info) [![Diiscord Bage](https://badgen.net/discord/members/qHMBkJ8gDk)](https://discord.gg/qHMBkJ8gDk)
+
+> This tutorial was originally published on Bitquery Blog. Please check out original post: [Opensea NFT API - A Complete Developer Guide
+](https://bitquery.io/blog/opensea-nft-api)
+
 ## Table of Contents
-  - [Newly Created NFTs on Ethereum](#newly-created-nfts-onethereum)
-  - [OpenSea Shared Storefront NFTs](#opensea-shared-storefront-nfts)
-  - [Latest NFT Trades on OpenSea](#latest-nft-trades-onopensea)
-  - [Most traded NFTs on Opensea](#most-traded-nfts-onopensea)
-  - [Total buy sell of an NFT token on Opensea](#total-buy-sell-of-an-nft-token-onopensea)
-  - [Top buyers of NFTs on Opensea](#top-buyers-of-nfts-onopensea)
-  - [Specific buyer stats for an NFT on Opensea](#specific-buyer-stats-for-an-nft-on-opensea)
-  - [Latest NFT Trades on Seaport](#latest-nft-trades-onseaport)
-  - [Get the Latest Trades of an Address](#get-the-latest-trades-of-anaddress)
-  - [Get Top Traded Tokens](#get-top-tradedtokens)
-  - [Getting Basic properties and stats of an NFT token](#getting-basic-properties-and-stats-of-an-nfttoken)
-  - [Popular Orangez ](#popular-orangez)
-  - [Top Holders of NFT token](#top-holders-of-nfttoken)
-  - [Conclusion](#conclusion)
-  - [About Bitquery](#about-bitquery)
+- [Getting Started](#getting-started) 
+- [Newly Created NFTs on Ethereum](#newly-created-nfts-onethereum)
+- [OpenSea Shared Storefront NFTs](#opensea-shared-storefront-nfts)
+- [Latest NFT Trades on OpenSea](#latest-nft-trades-onopensea)
+- [Most traded NFTs on Opensea](#most-traded-nfts-onopensea)
+- [Total buy sell of an NFT token on Opensea](#total-buy-sell-of-an-nft-token-onopensea)
+- [Top buyers of NFTs on Opensea](#top-buyers-of-nfts-onopensea)
+- [Specific buyer stats for an NFT on Opensea](#specific-buyer-stats-for-an-nft-on-opensea)
+- [Latest NFT Trades on Seaport](#latest-nft-trades-onseaport)
+- [Get the Latest Trades of an Address](#get-the-latest-trades-of-anaddress)
+- [Get Top Traded Tokens](#get-top-tradedtokens)
+- [Getting Basic properties and stats of an NFT token](#getting-basic-properties-and-stats-of-an-nfttoken)
+- [Popular Orangez ](#popular-orangez)
+- [Top Holders of NFT token](#top-holders-of-nfttoken)
+- [Conclusion](#conclusion)
+- [About Bitquery](#about-bitquery)
+
+## Getting Started
+
+To get started for free, please create an account with your email: [GraphQL IDE ](https://ide.bitquery.io/).Once you create the account, check out our docs to learn [how to create your first query](https://docs.bitquery.io/docs/ide/query/).
+
+To learn more about how to use the Bitquery API, please see the following resources:
+- Historical / Near-Realtime Chain Data: [Blockchain API Documentation (V1 Graphql Docs) | Blockchain Graphql API (V1  API Docs)](https://docs.bitquery.io/v1/) 
+- Realtime Data , Websocket and Cloud Product: [Blockchain Streaming API (V2 Graphql Docs) | Streaming API (V2  API Docs)](https://docs.bitquery.io/) 
 
 ## Newly Created NFTs on Ethereum
 
@@ -654,12 +668,16 @@ To learn, read this article on [NFT APIs](https://community.bitquery.io/t/nft-a
 
 ## About Bitquery
 
-[**Bitquery**](https://bitquery.io/?source=blog&utm_medium=about_coinpath) is a set of software tools that parse, index, access, search, and use information across blockchain networks in a unified way. Our products are:
+[**Bitquery**](https://bitquery.io/?source=blog&utm_medium=about_coinpath) is your comprehensive toolkit designed with developers in mind, simplifying blockchain data access. Our products offer practical advantages and flexibility.
 
--   [**Coinpath® APIs**](https://bitquery.io/products/coinpath?utm_source=blog) provide [blockchain money flow analysis](https://blog.bitquery.io/coinpath-blockchain-money-flow-apis) for more than 24 blockchains. With Coinpath’s APIs, you can monitor blockchain transactions, investigate crypto crimes such as bitcoin money laundering, and create crypto forensics tools. Read [this to get started with Coinpath®](https://bitquery.io/blog/coinpath-api-get-start).
+-   **APIs** - [Explore API](https://ide.bitquery.io/streaming): Easily retrieve precise real-time and historical data for over 40 blockchains using GraphQL. Seamlessly integrate blockchain data into your applications, making data-driven decisions effortless.
 
--   [**Digital Assets API**](https://bitquery.io/products/digital_assets?utm_source=blog&utm_medium=about) provides index information related to all major cryptocurrencies, coins, and tokens.
+-   **Coinpath®** - [Try Coinpath](https://bitquery.io/products/coinpath?utm_source=blog&utm_medium=about): Streamline compliance and crypto investigations by tracing money movements across 40+ blockchains. Gain insights for efficient decision-making.
 
--   [**DEX API**](https://bitquery.io/products/dex?utm_source=blog&utm_medium=about) provides real-time deposits and transactions, trades, and other related data on different DEX protocols like Uniswap, Kyber Network, Airswap, Matching Network, etc.
+-   **Data in Cloud** - [Try Demo Bucket](https://bitquery.io/products/data-in-cloud?utm_source=blog&utm_medium=about): Access indexed blockchain data cost-effectively and at scale for your data pipeline. We currently support Ethereum, BSC, Solana, with more blockchains on the horizon, simplifying your data access.
+
+-   **Explorer** - [Try Explorer](http://explorer.bitquery.io): Discover an intuitive platform for exploring data from 40+ blockchains. Visualize data, generate queries, and integrate effortlessly into your applications.
+
+Bitquery empowers developers with straightforward blockchain data tools. If you have questions or need assistance, connect with us on our [Telegram channel](https://t.me/Bloxy_info) or via email at <hello@bitquery.io>. Stay updated on the latest in cryptocurrency by subscribing to our newsletter below.
 
 If you have any questions about our products, ask them on our [Telegram channel](https://t.me/Bloxy_info) or email us at [hello@bitquery.io](mailto:hello@bitquery.io). Also, subscribe to our newsletter below; we will keep you updated with the latest in the cryptocurrency world.
